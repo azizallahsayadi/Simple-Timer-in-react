@@ -1,0 +1,36 @@
+/* Add this to your Timer.css file */
+
+body {
+    display: flex; /* Use flexbox for centering */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Full viewport height */
+    margin: 0; /* Remove default margin */
+    background-color: #373636; /* Optional: background color for contrast */
+  }
+  
+  .timer-container {
+    border: 2px solid #4CAF50; /* Green border */
+    border-radius: 8px; /* Rounded corners */
+    padding: 20px; /* Space inside the border */
+    gap: 20px;
+    width: 400px; /* Set a fixed width */
+    text-align: center; /* Center text inside the container */
+    background-color: #144203; /* Light background color */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  }
+  
+  h1 {
+    font-size: 2rem; /* Increase font size for the timer */
+    margin-bottom: 20px; /* Space below the heading */
+  }
+  
+  input, button {
+    font-size: 0.8rem; /* Increase font size for input and buttons */
+    
+    margin: 10px ; /* Space between input and buttons */
+    padding: 10px; /* Padding inside input and buttons */
+    width: 28%; /* Make input and buttons full width */
+    max-width: 250px; /* Set a max width for input and buttons */
+  }
+  
